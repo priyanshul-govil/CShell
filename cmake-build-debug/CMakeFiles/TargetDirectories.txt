@@ -1,0 +1,8 @@
+F:/SHELL/CShell/cmake-build-debug/CMakeFiles/syscmd.dir
+F:/SHELL/CShell/cmake-build-debug/CMakeFiles/handle.dir
+F:/SHELL/CShell/cmake-build-debug/CMakeFiles/pinfo.dir
+F:/SHELL/CShell/cmake-build-debug/CMakeFiles/spec2.dir
+F:/SHELL/CShell/cmake-build-debug/CMakeFiles/shell.dir
+F:/SHELL/CShell/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/SHELL/CShell/cmake-build-debug/CMakeFiles/ls.dir
+F:/SHELL/CShell/cmake-build-debug/CMakeFiles/rebuild_cache.dir

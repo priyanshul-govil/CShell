@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CShell"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="syscmd">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/syscmd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 syscmd"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="syscmd/fast">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/syscmd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 syscmd/fast"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="handle">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/handle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 handle"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="handle/fast">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/handle.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 handle/fast"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pinfo">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/pinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 pinfo"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pinfo/fast">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/pinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 pinfo/fast"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spec2">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/spec2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 spec2"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spec2/fast">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/spec2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 spec2/fast"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shell">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/shell.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 shell"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="shell/fast">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/shell.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 shell/fast"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ls">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/ls.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 ls"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ls/fast">
+				<Option output="F:/SHELL/CShell/cmake-build-debug/ls.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/backward"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Gautam Chaudhuri/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 ls/fast"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/SHELL/CShell/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/GAUTAM~1/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f &quot;F:/SHELL/CShell/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/SHELL/CShell/handle.c">
+			<Option target="handle"/>
+		</Unit>
+		<Unit filename="F:/SHELL/CShell/ls.c">
+			<Option target="ls"/>
+		</Unit>
+		<Unit filename="F:/SHELL/CShell/pinfo.c">
+			<Option target="pinfo"/>
+		</Unit>
+		<Unit filename="F:/SHELL/CShell/shell.c">
+			<Option target="shell"/>
+		</Unit>
+		<Unit filename="F:/SHELL/CShell/spec2.c">
+			<Option target="spec2"/>
+		</Unit>
+		<Unit filename="F:/SHELL/CShell/syscmd.c">
+			<Option target="syscmd"/>
+		</Unit>
+		<Unit filename="F:/SHELL/CShell/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

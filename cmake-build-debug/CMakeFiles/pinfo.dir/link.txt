@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\pinfo.dir/objects.a
+C:\Users\GAUTAM~1\Dev-Cpp\MinGW64\bin\ar.exe cr CMakeFiles\pinfo.dir/objects.a @CMakeFiles\pinfo.dir\objects1.rsp
+C:\Users\GAUTAM~1\Dev-Cpp\MinGW64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\pinfo.dir/objects.a -Wl,--no-whole-archive  -o pinfo.exe -Wl,--out-implib,libpinfo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\pinfo.dir\linklibs.rsp
